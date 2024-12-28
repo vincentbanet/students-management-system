@@ -75,7 +75,7 @@ echo "<script>alert('Invalid Details');</script>";
               <div class="auth-form-light text-center p-5">
                 <div class="brand-logo">
                 </div>
-                <h4>Hello! let's get started</h4><hr>
+                <marquee>Hello! let's get started</marquee><hr><hr>
                 <h6 class="font-weight-light">Sign in to continue.</h6>
                 <form class="pt-3" id="login" method="post" name="login">
                   <div class="form-group">
@@ -111,7 +111,7 @@ echo "<script>alert('Invalid Details');</script>";
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
-    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- <script src="assets/vendors/js/vendor.bundle.base.js"></script> -->
     <!-- endinject -->
     <!-- Plugin js for this page -->
     <!-- End plugin js for this page -->

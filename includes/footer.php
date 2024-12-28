@@ -1,5 +1,3 @@
-
-    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
     <script src="assets/vendors/select2/select2.min.js"></script>
@@ -22,7 +20,7 @@
     <!-- End custom js for this page -->
     <script>
       function onReady(callback) {
-    var intervalID = window.setInterval(checkReady, 0);
+    var intervalID = window.setInterval(checkReady, 15000);
     function checkReady() {
         if (document.getElementsByTagName('body')[0] !== undefined) {
             window.clearInterval(intervalID);
@@ -41,7 +39,4 @@ onReady(function () {
 });
     </script>
   </body>
-  <!--  Orginal Author Name: Mayuri K. 
- for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- Visit website : www.mayurik.com -->  
 </html>
